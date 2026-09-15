@@ -1,0 +1,10 @@
+# Step 1: Get the user's weight and height
+weight = float(input("Enter weight in kg: "))
+height = float(input("Enter height in meters: "))
+
+# Step 2: Calculate BMI (weight divided by height squared)
+bmi = weight / (height * height)
+
+# Step 3: Show the answer
+print("Your BMI is:")
+print(bmi)
